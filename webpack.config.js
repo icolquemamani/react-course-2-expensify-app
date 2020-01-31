@@ -42,8 +42,7 @@ module.exports = (env) => {
                         }
                     }                    
                 ],
-                test:  /\.s?css$/,
-    
+                test:  /\.s?css$/    
             }]
         },
         devtool: isProduction? 'source-map' : 'inline-source-map',
